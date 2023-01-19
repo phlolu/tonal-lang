@@ -9,7 +9,7 @@ Many languages are tonal. One of them, Yoruba, has words like og&uacute;n (<i>tw
 
 ## Technologies
 
-### Praat https://www.fon.hum.uva.nl/praat/
+### [Praat](https://www.fon.hum.uva.nl/praat/)
 Pitch from a tonal language tends not to be a single frequency like say, middle C at 256 Hz. Instead it's a contour or curve. See the images below.
 <br><br>With Praat we can extract the pitch contours from a sound recording and apply that pitch curve to a sine wave. And maybe create a voiceless language tone. At least that's the plan.
 <br>
@@ -21,7 +21,7 @@ Pitch from a tonal language tends not to be a single frequency like say, middle 
 ![](https://sail.usc.edu/~lgoldste/General_Phonetics/Tone/yoruba1.jpg)
 <br><b>Source</b>: [Yoruba Pitch Contour | USC General Phonetics | Hombert, 1976](https://sail.usc.edu/~lgoldste/General_Phonetics/Tone/)
 
-### Audacity https://www.audacityteam.org
+### [Audacity](https://www.audacityteam.org)
 With Audacity we can modulate the sine wave created with Praat. These changes in frequencies should help simulate the differences in pitches from person to person. For example, the tonal register of a woman would generally be higher than that of a man. Yet a native speaker would still be able to recognize the tones despite the difference in pitch. Providing a user of this app with 
 
 
