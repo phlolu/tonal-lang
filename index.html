@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tonal Yoruba For All</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js" async></script>
+</head>
+
+<body>
+  <div class="container bydev">
+    <div class="header">
+      <h1>Listen<br>Mode</br></h1>
+      <div class="header-settings">
+        <div class="tone">
+          <p class="testing">Tone Type</p>
+          <div>
+            <form>
+              <input type="radio" id="low" name="tone_type" value="1">
+              <label for="low">low</label><br>
+              <input type="radio" id="mid" name="tone_type" value="2">
+              <label for="mid">mid</label><br>
+              <input type="radio" id="high" name="tone_type" value="3">
+              <label for="high">high</label><br>
+              <input type="radio" id="all" name="tone_type" value="4" checked>
+              <label for="all">all</label>
+            </form>
+          </div>
+        </div>
+        <div class="voice">
+          <p>Voice</p>
+          <div>
+            <form>
+              <input type="radio" id="single" name="voice_type" value="1">
+              <label for="single">single</label><br>
+              <input type="radio" id="varied" name="voice_type" value="2" checked>
+              <label for="varied">varied</label><br>
+            </form>
+          </div>
+        </div>
+
+        <div class="tone-count">
+          <p>Tone count</p>
+          <div>
+            <form>
+              <label for="tonecount"></label>
+              <input type="text" class="" id="tonecount" name="tonecount" placeholder="1-1000" pattern: "[0-9]{1,3}";>
+            </form>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="tone-display">
+      <div>
+        <button class="start-stop">start</button>
+        <div class="tone-circ-container">
+          <div class="tone-circ">
+            <div class="marker"></div>
+            <div class="text"></div>     
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="countdown">
+      <div class="counter-container">
+        <!--<p>countdown</p>-->
+        <!--<h3>Tones Remaining</h3>-->
+        <div><span class="counter-info">Tones Remaining</span></div>
+        <div>
+          <div class="counter-cell"></div>
+        </div>
+      </div>
+    </div>
+    <div><a href="quiz.html">quiz mode</a></div>
+
+  </div>
+
+</body>
+
+</html>
