@@ -1,7 +1,7 @@
 
-const low_arr = [["l1","/sounds/wa-lt.wav"], ["l2","/sounds/wa-lt.wav"], ["l3","/sounds/wa-lt.wav"]]
-const mid_arr = [["m1","/sounds/wa-mt.wav"], ["m2","/sounds/wa-mt.wav"], ["m3","/sounds/wa-mt.wav"]]
-const high_arr = [["h1","/sounds/wa-ht.wav"], ["h2","/sounds/wa-ht.wav"], ["h3","/sounds/wa-ht.wav"]]
+const low_arr = [["l1","/wa-lt.wav"], ["l2","/wa-lt.wav"], ["l3","/wa-lt.wav"]]
+const mid_arr = [["m1","/wa-mt.wav"], ["m2","/wa-mt.wav"], ["m3","/wa-mt.wav"]]
+const high_arr = [["h1","/wa-ht.wav"], ["h2","/wa-ht.wav"], ["h3","/wa-ht.wav"]]
 
 
 let low_arr_pool = []
