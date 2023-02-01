@@ -4,6 +4,8 @@ This is still very much in progress... Currently only three Yoruba sounds (voice
 
 # Tonal Lang
 
+## Run App: https://phlolu.github.io/tonal-lang/
+
 ## Overview
 Many languages are tonal. One of them, Yoruba, has words like og&uacute;n (<i>twenty</i>), ogun (<i>war</i>), &ograve;g&uacute;n (<i>god of iron</i>) which may have the same spelling but do not sound the same to native speakers (homographs). This app aims to help users hear the tones through repitition and quiz themselves on demand.
 
